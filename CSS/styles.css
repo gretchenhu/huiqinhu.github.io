@@ -1,0 +1,274 @@
+body {
+  background-color: ivory;
+  font-family: sans-serif;
+}
+hr {
+  border-color: grey;
+  border-radius: 20;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 10%;
+}
+
+h2 {
+  color: #557b83;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #a2d5ab;
+  text-align: center;
+}
+
+/*----------------------intro section--------------------*/
+#intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro td:first-child {
+  padding-right: 100px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+#intro table {
+  border-spacing: 100px;
+}
+
+h1 {
+  color: #557b83;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #a2d5ab;
+  text-align: center;
+}
+
+strong {
+  text-align: center;
+}
+
+h3 {
+  color: #a2d5ab;
+}
+h3:hover {
+  color: #557b83;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: url("images/GhibliWallpaper.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.logo {
+  margin: 0;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #557b83;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: #557b83;
+  font-size: 30px;
+}
+
+.navbar-toggler {
+  outline: none;
+}
+
+/*img {
+  border-radius: 50%;
+}
+*/
+
+/*----------------education section----------------*/
+#education {
+  padding: 80px 0;
+}
+
+.donate-img1 {
+  width: 200px;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.education {
+  padding: 20px;
+}
+
+.education h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #557b83;
+}
+
+.title::before {
+  content: "";
+  background: #557b83;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after {
+  content: "";
+  background: #557b83;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+.row.text-center {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col-md-4.education {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+/*----------------work section----------------*/
+.work h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #557b83;
+}
+
+#work {
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.work-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+
+#work ul li {
+  margin: 10px 0;
+}
+
+.col-md-6.work {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.col-md-6.plusheen {
+  margin-top: 15%;
+  padding-left: 100px;
+}
+
+/*-----------social media section-----------*/
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+}
+
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+/*----------------film portfolio section-------------------*/
+
+.portfolio .portfolio-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio h2 {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio h4 {
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/*----------------footer section-------------------*/
+#footer {
+  background-color: beige;
+  color: #557b83;
+}
+
+.footer-box {
+  padding: 20px;
+}
+
+.footer-box img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.form-box .form-control {
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+
+.footer-box .btn-primary {
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-color: #557b83;
+}
+
+hr {
+  background-color: #fff;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}

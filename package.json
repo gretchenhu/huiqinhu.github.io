@@ -1,0 +1,11 @@
+{
+  "name": "project-1---personal-site",
+  "version": "1.0.0",
+  "description": "This is the personal website for Huiqin Greta Hu",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Huiqin Greta Hu",
+  "license": "MIT"
+}

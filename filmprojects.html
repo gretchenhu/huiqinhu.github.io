@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Huiqin's Personal Site</title>
+    <meta content="Huiqin GretaHu" name="author" />
+    <meta
+      content="This is the film project portfolio for Huiqin Greta Hu's personal website"
+      name="description"
+    />
+    <meta content="film project, personal website" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="images/favicon/favicon.ico" rel="icon" />
+
+    <!--------Main CSS File------------->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--------Bootstrap Files----------->
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!--------------Navigation Bar------------->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="images/profilepic.jpg" class="logo" alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="bottom"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html#intro"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#education">EDUCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#work">WORK EXPERIENCE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#projects">CS PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./filmprojects.html">FILM PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html#footer">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <main id="main">
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Film Projects Gallery</h2>
+            <h4>
+              Here is a portfolio of films I worked with (invested in, or
+              organized screenings of).
+            </h4>
+          </div>
+
+          <div class="row portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <a href="https://roxie.com/film/kaili-blues/">
+                <img
+                  src="./images/kailiblues.png"
+                  class="img-fluid"
+                  alt="kailiblues"
+                />
+              </a>
+              <div class="portfolio-info">
+                <h4>I organized the SF screening of this film</h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <a href="https://roxie.com/film/journey-to-the-west/">
+                <img
+                  src="./images/journeytothewest.png"
+                  class="img-fluid"
+                  alt="Journey to the west"
+                />
+              </a>
+              <div class="portfolio-info">
+                <h4>
+                  I organized 3 screenings of this film, 700+ seats were sold
+                  out
+                </h4>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+              <a href="https://roxie.com/film/farewell-my-concubine/">
+                <img
+                  src="./images/farewell.jpeg"
+                  class="img-fluid"
+                  alt="farewell"
+                />
+              </a>
+              <div class="portfolio-info">
+                <h4>I organized the SF screening of this film</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!---------------------footer section--------------------------->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <p>"Carpe Diem"</p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTACT INFORMATION</b></p>
+            <p>Office Address: 600 California Street 20C</p>
+            <p>+1 682-597-7762</p>
+            <p>hu.huiq@northeastern.edu</p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>SEND ME A MESSAGE</b></p>
+            <div id="error"></div>
+            <form
+              id="form"
+              action="mailto:huiqinhu88@gmail.com"
+              method="GET"
+              enctype="text/plain"
+            >
+              <div>
+                <label for="username">Your Name: </label>
+                <input id="username" name="username" type="text" />
+              </div>
+              <div>
+                <label for="email">Your Email: </label>
+                <input id="email" name="email" type="text" />
+              </div>
+              <div>
+                <label for="message">Your Message: </label>
+                <input id="message" name="message" type="text" />
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Website Created by Huiqin Hu©</p>
+      </div>
+    </section>
+
+    <script src="Javascript/main.js"></script>
+  </body>
+</html>
