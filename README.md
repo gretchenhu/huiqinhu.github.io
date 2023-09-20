@@ -6,6 +6,8 @@ Course Link: https://johnguerra.co/classes/webDevelopment_fall_2023/
 
 Website Link: https://gretchenhu.github.io/huiqinhu.github.io/
 
+Presentation Video Link: https://www.youtube.com/watch?v=luNNvhz-P_8&ab_channel=HuiqinHu
+
 Project Objective: This project is the first project of CS5610 Web Development course at Northeastern University. This is a good kickstart of my web development journey, a good exercise to equip me with knowledge on HTML, CSS, Javascript, Bootstrap, etc. Although the website is still at its beginning stage, I intend to continue updating it and eventually use this as my professional personal website so my friends, network, future employers and potential business partner could come and see the projects I have worked on in the past.
 
 Screenshot:
